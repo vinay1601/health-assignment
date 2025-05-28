@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { FaUserCircle } from 'react-icons/fa';
-import { IoNotificationsOutline } from 'react-icons/io5';
-import { FiSearch } from 'react-icons/fi';
+import { FaUserCircle } from 'react-icons/fa'
+import { IoNotificationsOutline } from 'react-icons/io5'
+import { FiSearch } from 'react-icons/fi'
 import React from 'react'
 
 const Header = () => {

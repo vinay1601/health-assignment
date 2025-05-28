@@ -1,6 +1,6 @@
-import { ChevronDown } from "lucide-react";
-import Link from "next/link";
-import React from "react";
+import { ChevronDown } from "lucide-react"
+import Link from "next/link"
+import React from "react"
 
 const SectionHeading = ({ title, subtitle, link, linkHref, linkLabel }) => {
     return (
@@ -34,4 +34,4 @@ const SectionHeading = ({ title, subtitle, link, linkHref, linkLabel }) => {
     );
 };
 
-export default SectionHeading;
+export default SectionHeading

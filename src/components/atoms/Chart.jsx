@@ -7,7 +7,7 @@ import {
     XAxis,
     Tooltip,
 } from "recharts";
-import { ChartContainer } from "@/components/ui/chart";
+import { ChartContainer } from "@/components/ui/chart"
 
 
 const ChartTooltipContent = ({ active, payload, label }) => {

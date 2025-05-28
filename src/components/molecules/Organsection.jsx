@@ -1,5 +1,5 @@
 import React from 'react'
-import { GiLungs, GiTooth, GiBoneKnife } from "react-icons/gi";
+import { GiLungs, GiTooth, GiBoneKnife } from "react-icons/gi"
 
 const iconMap = {
     Lungs: <GiLungs className="text-2xl text-red-500" />,

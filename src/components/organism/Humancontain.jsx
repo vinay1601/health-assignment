@@ -1,9 +1,9 @@
-import React from 'react';
-import { FaHeart } from "react-icons/fa";
-import { GiLeg } from "react-icons/gi";
-import bodyImage from '../../../public/assets/ato.webp';
-import Image from "next/legacy/image";
-import Organsection from '../molecules/Organsection';
+import React from 'react'
+import { FaHeart } from "react-icons/fa"
+import { GiLeg } from "react-icons/gi"
+import bodyImage from '../../../public/assets/ato.webp'
+import Image from "next/legacy/image"
+import Organsection from '../molecules/Organsection'
 import { organData } from '@/data/healthStatus'
 
 const HumanContain = () => {
@@ -33,4 +33,4 @@ const HumanContain = () => {
     );
 };
 
-export default HumanContain;
+export default HumanContain

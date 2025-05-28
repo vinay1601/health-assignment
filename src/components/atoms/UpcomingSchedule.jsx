@@ -1,5 +1,5 @@
-import { upcomingAppointments } from '@/data/upcomingAppointments';
-import * as MdIcons from 'react-icons/md';
+import { upcomingAppointments } from '@/data/upcomingAppointments'
+import * as MdIcons from 'react-icons/md'
 
 export default function UpcomingSchedule() {
     return (

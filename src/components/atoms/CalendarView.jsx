@@ -1,14 +1,14 @@
-import { calendarData } from '@/data/calendarAppointments';
-import { FaTooth } from 'react-icons/fa';
-import { FiActivity } from 'react-icons/fi';
+import { calendarData } from '@/data/calendarAppointments'
+import { FaTooth } from 'react-icons/fa'
+import { FiActivity } from 'react-icons/fi'
 
 const CalendarView = () => {
     const getAppointmentIcon = (type) => {
         switch (type) {
             case 'dentist':
-                return <FaTooth className="text-indigo-600" />;
+                return <FaTooth className="text-indigo-600" />
             case 'physiotherapy':
-                return <FiActivity className="text-indigo-600" />;
+                return <FiActivity className="text-indigo-600" />
             default:
                 return null;
         }
@@ -30,7 +30,7 @@ const CalendarView = () => {
                             <span className="text-gray-400 text-sm">—</span>
                         ) : (
                             item.times.map((time, i) => {
-                                const isHighlighted = item.label === "Tue 26" && time === "09:00";
+                                const isHighlighted = item.label === "Tue 26" && time === "09:00"
                                 return (
                                     <div
                                         key={i}
@@ -82,4 +82,4 @@ const CalendarView = () => {
     );
 };
 
-export default CalendarView;
+export default CalendarView
