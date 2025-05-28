@@ -48,22 +48,22 @@ const CalendarView = () => {
                 ))}
             </div>
 
-            <div className="mt-4">
-                <h4 className="text-lg font-semibold mb-2.5">Appointments</h4>
+            <div className="mt-4 5xl:mt-8">
+                <h4 className="text-lg 5xl:text-xl font-semibold 5xl:font-bold mb-2.5 5xl:mb-5">Appointments</h4>
                 <div className="grid md:grid-cols-2 gap-4">
                     {calendarData.appointments.map((appointment, index) => (
                         <div
                             key={index}
-                            className="bg-indigo-50 p-4 rounded-lg shadow-md"
+                            className="bg-indigo-50 p-4 5xl:p-6 rounded-lg shadow-md"
                         >
                             <div >
-                                <span className='flex items-center gap-2 text-indigo-800 font-bold text-base md:text-[13px] mb-1'>{getAppointmentIcon(appointment.type)}
+                                <span className='flex items-center gap-2 text-indigo-800 font-bold text-base md:text-[13px] 5xl:text-lg mb-1'>{getAppointmentIcon(appointment.type)}
                                     {appointment.title}</span>
                             </div>
-                            <div className="text-[10px] text-gray-600 mb-1">
+                            <div className="text-[10px] 5xl:text-lg text-gray-600 mb-1">
                                 {appointment.description}
                             </div>
-                            <div className="text-[10px] text-gray-500">
+                            <div className="text-[10px] 5xl:text-sm text-gray-500">
                                 {new Date(appointment.start).toLocaleTimeString([], {
                                     hour: '2-digit',
                                     minute: '2-digit',

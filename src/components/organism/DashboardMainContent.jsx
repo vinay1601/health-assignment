@@ -8,8 +8,8 @@ import UpcomingSchedule from '../atoms/UpcomingSchedule'
 const DashboardMainContent = () => {
     return (
         <>
-            <div className='border-2 border-indigo-700 grid grid-cols-2 h-fit'>
-                <div className='col-span-2 md:col-span-1 w-full h-full'>
+            <div className='grid grid-cols-2'>
+                <div className='col-span-2 lg:col-span-1 w-full h-full'>
                     <SectionHeading
                         title="Dashboard"
                         link
@@ -19,11 +19,11 @@ const DashboardMainContent = () => {
                     <div className='py-5 md:py-2'>
                         <Humancontain />
                     </div>
-                    <div>
+                    <div className='5xl:mt-16'>
                         <Chart />
                     </div>
                 </div>
-                <div className='col-span-2 md:col-span-1 w-full h-full'>
+                <div className='col-span-2 lg:col-span-1 w-full h-full'>
                     <div>
                         <CalendarView />
                         <UpcomingSchedule />

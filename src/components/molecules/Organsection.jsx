@@ -16,7 +16,7 @@ const progressWidth = {
 const Organsection = ({ organdatas }) => {
     return (
         <>
-            <div className="p-4 space-y-4 max-w-[210px] mx-auto">
+            <div className="p-4 space-y-4 max-w-[380px] md:max-w-[210px] mx-auto">
                 {organdatas.map((item, index) => (
                     <div
                         key={index}
