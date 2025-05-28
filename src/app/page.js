@@ -1,6 +1,6 @@
 import Header from "@/components/molecules/Header";
 import Sidebar from "@/components/molecules/Sidebar";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { sidebarData } from "@/data/navLinks";
 import DashboardMainContent from "@/components/organism/DashboardMainContent";
 
