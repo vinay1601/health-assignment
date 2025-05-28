@@ -1,5 +1,5 @@
 import { upcomingAppointments } from '@/data/upcomingAppointments';
-import * as MdIcons from 'react-icons/md'; // React Icons Library
+import * as MdIcons from 'react-icons/md';
 
 export default function UpcomingSchedule() {
     return (
